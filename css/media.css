@@ -132,7 +132,6 @@
 
         .main-text {
             margin-top: 30vh;
-            /* padding-left: 95px; */
         }
 
         .main-text-1 {
@@ -182,9 +181,6 @@
         padding: 0;
         padding-top: 40px;
         padding-bottom: 40px;
-
-        /* padding-left: 50px;
-        padding-right: 50px; */
     }
 
     .calculator-main-text {
