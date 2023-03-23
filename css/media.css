@@ -1,0 +1,600 @@
+@media (max-width: 1439px) {
+
+    /* HEAD */
+    section {
+        padding: 0 50px;
+    }
+
+    .section-name {
+        font-size: 30px;
+        padding: 100px 35px 35px 95px;
+    }
+
+    .header_logo {
+        width: 120px;
+        height: 120px;
+        font-size: 30px;
+        line-height: 120px;
+    }
+
+    .header_body {
+        height: 50px;
+        padding-top: 20px;
+    }
+
+    .line-horisontal {
+        left: 120px;
+        right: 50px;
+        top: 50px;
+    }
+
+    .line-vertical-left {
+        left: 50px;
+        top: 120px;
+    }
+
+    .line-vertical-right {
+        right: 50px;
+        top: 120px;
+    }
+
+    .header_list {
+        padding-left: 130px;
+
+    }
+
+    .header_list li {
+        margin: 0 15px;
+    }
+
+    .header-link {
+        font-size: 18px;
+    }
+
+    .icon {
+        width: 50px;
+    }
+
+    .icon img {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    /* ГОЛОВНА */
+    .main-text {
+        font-size: 30px;
+        padding-left: 95px;
+    }
+
+    .maine-image img {
+        padding-top: 50px;
+    }
+
+    .consultation {
+        width: 150px;
+        height: 150px;
+        bottom: 50px;
+        right: 100px;
+        font-size: 18px;
+    }
+
+
+
+    /* ПРОЕКТИ */
+    .cart {
+        max-height: 100%;
+        max-width: 100%;
+        border-left: none;
+    }
+
+    .cart-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cart-img img {
+        margin: auto;
+    }
+
+    .cart:nth-last-child(4) {
+        border-bottom: 1px solid #2B2B2B;
+    }
+
+    /* PRICE */
+    .price-info {
+        padding-left: 60px;
+    }
+
+    /* CONTACT */
+    .line-above-contact {
+        height: 50px;
+    }
+
+}
+
+@media (max-width: 1023px) {
+
+    @media (orientation: landscape) {
+        .icon.active {
+            position: static;
+        }
+
+        .consultation {
+            width: 100px;
+            height: 100px;
+            bottom: 50px;
+            right: 100px;
+            font-size: 18px;
+        }
+
+        .main-text {
+            margin-top: 30vh;
+            /* padding-left: 95px; */
+        }
+
+        .main-text-1 {
+            font-size: 30px;
+        }
+
+        .main-text-2 {
+            font-size: 16px;
+        }
+    }
+
+    /* ГОЛОВНА */
+    .consultation {
+        width: 120px;
+        height: 120px;
+        bottom: 50px;
+        right: 100px;
+        font-size: 16px;
+    }
+
+
+    /* ПРОЕКТИ */
+    .cart-info {
+        padding: 35px;
+    }
+
+
+    /* PRICE */
+    .price-container {
+        padding: 0 35px;
+        flex-direction: column;
+    }
+
+    .price-info {
+        font-size: 16px;
+        width: 100%;
+        padding-bottom: 30px;
+        padding: 0;
+    }
+
+    .price-info p {
+        max-width: 100%;
+    }
+
+    .price-calculator {
+        width: 100%;
+        padding: 0;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        /* padding-left: 50px;
+        padding-right: 50px; */
+    }
+
+    .calculator-main-text {
+        padding-left: 30px;
+    }
+
+    .fone {
+        max-width: 200px;
+    }
+
+
+    /* POPUP  */
+    .popup_content_header_description {
+        padding: 50px 15px 15px 30px;
+    }
+
+    .popup_body {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    body.lock {
+        overflow: hidden;
+    }
+
+    section {
+        padding: 0 15px;
+    }
+
+    .section-name {
+        text-align: center;
+        font-size: 30px;
+        padding: 30px 0px 20px 0px;
+    }
+
+    /* HEAD */
+    .header::before {
+        opacity: 0.5;
+        /* z-index: 60; */
+    }
+
+    .header.active::before {
+        opacity: 0;
+    }
+
+    .header_logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 25px;
+        z-index: 3;
+        background-color: transparent;
+    }
+
+    .header_logo.active {
+        display: none;
+    }
+
+
+    .header_body {
+        padding: 0;
+        align-items: center;
+
+    }
+
+    .header_burger {
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+        right: 15px;
+    }
+
+    .header_burger span {
+        background-color: #2B2B2B;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header_burger:before,
+    .header_burger:after {
+        content: '';
+        background-color: #2B2B2B;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header_burger:before {
+        top: 0;
+    }
+
+    .header_burger:after {
+        bottom: 0;
+    }
+
+    .header_burger.active span {
+        transform: scale(0);
+    }
+
+    .header_burger.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+
+    .header_burger.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+    .header_menu {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        transition: all 0.3s ease 0s;
+        background-color: white;
+        padding-top: 150px;
+    }
+
+    .header_menu.active {
+        
+        top: 0;
+    }
+
+    .header_list {
+        display: block;
+        padding: 0;
+        text-align: center;
+        padding: 0 45px;
+    }
+
+    .header_list li {
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #2B2B2B;
+    }
+
+    .header_list li:last-child {
+        border-bottom: none;
+    }
+
+    .header-link {
+        font-size: 30px;
+    }
+
+    .line-horisontal,
+    .line-vertical-left,
+    .line-vertical-right,
+    .icon {
+        display: none;
+    }
+
+    .icon.active {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        z-index: 50;
+    }
+
+    @media (orientation: landscape) {
+        .icon.active {
+            position: static;
+        }
+    }
+
+    .icon ul {
+        width: 100%;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .icon.active i {
+        margin: 0;
+        padding: 25px;
+        transform: scale(1.5);
+    }
+
+    /* ГОЛОВНА */
+    .main-block {
+        height: 100%;
+    }
+
+    .main-text {
+        width: 100%;
+        position: absolute;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 50px;
+        padding: 30px;
+        z-index: 1;
+    }
+
+    .main-text-1 {
+        font-size: 25px;
+    }
+
+    .main-text-2 {
+        font-size: 16px;
+    }
+
+    .maine-image {
+        position: relative;
+    }
+
+    .maine-image img {
+        padding-top: 50px;
+        height: auto;
+        width: 100%;
+    }
+
+    .consultation {
+        width: 75px;
+        height: 75px;
+        bottom: 25px;
+        right: 40px;
+        font-size: 0px;
+    }
+
+    .consultation.active {
+        display: none;
+    }
+
+
+    /* ПРОЕКТИ */
+    .cart {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .cart a {
+        flex-direction: column;
+    }
+
+    .cart-info {
+        float: none;
+        flex-grow: 0;
+        max-width: 100%;
+        width: 100%;
+
+    }
+
+    .cart-info p {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .cart-img {
+        float: none;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .cart-img img {
+        max-width: 100%;
+        padding: 0;
+
+    }
+
+    /* PRICE */
+
+    .price-calculator {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .price-calculator form {
+        width: 100%;
+    }
+
+    #square-input {
+        background: transparent;
+        border: none;
+        text-align: center;
+        width: 100%;
+        line-height: 30px;
+    }
+
+    .calculator-main-text {
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .calculator-secondary-text {
+        font-size: 18px;
+    }
+
+    .calculator-secondary-text {
+        font-size: 18px;
+    }
+
+    .fone {
+        font-size: 30px;
+        max-width: 100%;
+    }
+
+    .fone sub {
+        line-height: 25px;
+        font-size: 16px;
+    }
+
+    /* CONTACT */
+    .contact {
+        max-width: 100%;
+        padding: 20px 20px;
+    }
+
+
+    /* POPUP  */
+    .popup_body {
+        padding: 10px;
+    }
+
+    .popup_content h3 {
+        padding-top: 30px;
+    }
+
+    .popup_image {
+        padding: 10px;
+    }
+
+    .popup_content_header {
+        display: block;
+    }
+
+     .popup_content_header_description {
+        padding: 30px 30px 15px 30px;
+        max-width: 35%;
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .previous {
+        left: 30px;
+    }
+
+    .next {
+        right: 30px;
+    }
+
+    .close {
+        top: 30px;
+        right: 30px;
+    }
+}
+
+@media (max-width: 424px) {
+
+    .section-name {
+        margin: 0;
+        font-size: 30px;
+        padding: 50px 25px 15px 25px;
+    }
+
+    /* ГОЛОВНА */
+    .main-text {
+        margin-top: 70px;
+        padding: 10px;
+    }
+
+    .main-text-1 {
+        font-size: 25px;
+    }
+
+    .main-text-2 {
+        font-size: 16px;
+    }
+
+    .consultation {
+        width: 50px;
+        height: 50px;
+        bottom: 25px;
+        right: 25px;
+    }
+
+    /* ПРОЕКТИ */
+    .cart-info {
+        padding: 25px;
+    }
+
+    .cart-img {
+        padding: 0;
+    }
+
+    .price-container {
+        padding: 0 5px;
+    }
+
+
+}
