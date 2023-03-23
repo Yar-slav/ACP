@@ -4,12 +4,8 @@
 
 body {
     margin: 0;
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Century Gothic', sans-serif;
-
-    /* font-family: 'Artifakt Element'; */
     font-size: 2vh;
-    /* color: #2B2B2B; */
 }
 
 body.lock {
@@ -75,7 +71,7 @@ section {
 }
 
 .starter_short {
-    
+
     color: white;
     font-family: 'Rajdhani', sans-serif;
     font-weight: 300;
@@ -111,7 +107,7 @@ section {
 /* HEAD */
 .header {
     position: fixed;
-    z-index:110;
+    z-index: 110;
     top: 0;
     left: 0;
     width: 100%;
@@ -596,7 +592,7 @@ input.chackbox-input[type="checkbox"]:checked {
     text-decoration: none;
 }
 
-.form-input::placeholder{
+.form-input::placeholder {
     color: rgb(171, 171, 171);
 }
 
@@ -606,8 +602,8 @@ input.chackbox-input[type="checkbox"]:checked {
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover {
-  -webkit-text-fill-color: white;
-  -webkit-box-shadow: 0 0 0px 1000px #2B2B2B inset;
+    -webkit-text-fill-color: white;
+    -webkit-box-shadow: 0 0 0px 1000px #2B2B2B inset;
 }
 
 .contact-rigth textarea {

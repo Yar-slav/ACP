@@ -50,7 +50,7 @@ function ifFormIsNotEmpty() {
             error++;
         }
     }
-    if(error != 0) {
+    if (error != 0) {
         alert('Заповніть всі обов\'язкові поля');
         return false;
     }
@@ -62,7 +62,7 @@ function ifEmailIsCorrect() {
     let input = document.querySelector('._email');
     formRemoveError(input);
     isValidEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,8})+$/.test(input.value);
-    if(!isValidEmail) {
+    if (!isValidEmail) {
         console.log("email not valid");
         formAddError(input);
         alert("Будь ласка введіть правильний email");

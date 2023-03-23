@@ -322,7 +322,7 @@
     }
 
     .header_menu.active {
-        
+
         top: 0;
     }
 
@@ -529,7 +529,7 @@
         display: block;
     }
 
-     .popup_content_header_description {
+    .popup_content_header_description {
         padding: 30px 30px 15px 30px;
         max-width: 35%;
         font-size: 14px;

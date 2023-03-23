@@ -18,7 +18,7 @@ window.addEventListener("scroll", function () {
     if (window.innerWidth > 424 && window.innerWidth <= 767) {
         circleSizeFunction([75, 50, 65, 0], [50, 25, 40, 0]);
     }
-    if (window.innerWidth <+ 424 ) {
+    if (window.innerWidth < + 424) {
         circleSizeFunction([50, 25, 25, 0], [50, 25, 25, 0]);
     }
 });
